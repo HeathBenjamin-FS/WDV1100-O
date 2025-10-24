@@ -1,0 +1,168 @@
+* {
+  box-sizing: border-box;
+}
+/* wrapper styles */
+#wrapper {
+  border: 3px solid black;
+  border-radius: 30px;
+  width: 90%;
+  margin: auto;
+  padding: 3rem;
+  box-shadow: 3px 3px 5px black;
+  background-color: #4361ee;
+}
+
+/* general styles */
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1.25rem;
+  background-color: #6c83e8;
+  line-height: 2rem;
+}
+
+/* You can make a class in the external stylesheet and then apply it to specific elements in the HTML at your choosing */
+
+.gradient-border {
+  border: 3px solid transparent;
+  background-image: linear-gradient(#6c83e8, #6c83e8), linear-gradient(to right, purple, pink);
+  background-origin: border-box;
+  background-clip: padding-box, border-box;
+}
+
+h1 {
+  text-align: center;
+  text-shadow: 3px 3px 1px lightblue;
+  font-weight: 500;
+  border-radius: 30px;
+  width: 90%;
+  margin: auto;
+  padding: 1rem;
+  box-shadow: 3px 3px 5px black;
+}
+
+h2 {
+  text-align: center;
+  font-weight: 300;
+  border-radius: 30px;
+  width: 90%;
+  margin: 2rem auto;
+  padding: 0.5rem;
+}
+
+h3 {
+  display: flex;
+  font-weight: 200;
+  border-radius: 30px;
+  align-items: center;
+  justify-content: center;
+}
+
+/* paragraph styles */
+
+p {
+  border: 3px solid black;
+  border-radius: 20px;
+  padding: 1.5rem;
+  box-shadow: 3px 3px 5px black;
+  background-color: #6c83e8;
+  transition: all 0.3s ease-in-out;
+}
+
+p:hover {
+  border-color: #6c83e8;
+  box-shadow: 5px 5px 10px black;
+}
+
+/* img styles */
+img {
+  display: block;
+  margin: auto;
+  width: 50%;
+  box-shadow: 5px 5px 5px black;
+  transition: all 0.3s ease-in-out;
+}
+
+img:hover {
+  border-color: black;
+  box-shadow: 5px 5px 10px black;
+}
+
+/* link styles */
+a:hover {
+  color: #844da5;
+}
+
+a {
+  text-decoration: none;
+  color: goldenrod;
+}
+
+/* list styles */
+/* flexbox to have list display better and wrap on smaller screens */
+ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 1rem;
+  padding: 0;
+}
+/* class for second ul so as not to inherit parent ul styles */
+.discs {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+/* Forms Styling */
+
+input,
+textarea,
+button {
+  font-family: inherit;
+  font-size: inherit;
+}
+
+form > label,
+input {
+  display: block;
+  padding: 1rem;
+  width: 70%;
+  border-radius: 0.5rem;
+  border: none;
+}
+
+input[type="checkbox"] {
+  display: inline-block;
+  width: 1rem;
+  height: 1rem;
+}
+
+#checkbox {
+  display: inline-block;
+}
+
+textarea {
+  display: block;
+  border-radius: 0.5rem;
+  height: 5rem;
+  width: 70%;
+}
+
+button {
+  background: pink;
+  border: none;
+  border-radius: 1rem;
+  color: black;
+}
+
+button:hover {
+  background: orange;
+  cursor: pointer;
+}
+
+footer {
+  text-align: center;
+}

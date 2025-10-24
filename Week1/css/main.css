@@ -1,0 +1,50 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.25rem;
+}
+
+#wrapper {
+  border: 4px solid black;
+  width: 90%;
+  margin: auto;
+}
+
+/* headings styles */
+h1 {
+  font-weight: 400;
+  color: crimson;
+  text-align: center;
+  border: 1px solid black;
+  background-color: cornsilk;
+  width: auto;
+  padding: 0.5rem;
+}
+
+p {
+  border: 1px solid black;
+  width: auto;
+  text-align: left;
+  background-color: cornsilk;
+  padding: 0.5rem;
+}
+
+/* image styling */
+
+img {
+  display: block;
+  width: auto;
+  margin: auto;
+}
+/* links styling*/
+
+a:hover {
+  color: goldenrod;
+}
+
+a {
+  color: darkblue;
+  text-align: center;
+  text-decoration: none;
+  width: 1rem;
+  margin: auto;
+}
